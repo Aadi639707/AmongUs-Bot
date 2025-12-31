@@ -7,7 +7,7 @@ let rooms = {};
 
 bot.onText(/\/start/, msg => {
   bot.sendMessage(msg.chat.id,
-👨‍🚀 *Among Us Game Bot*
+👨‍🚀 console.log("Among Us Game Bot");
 
 Commands:
 /create – Create room
