@@ -1,0 +1,7 @@
+{
+  "name": "amongus-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
