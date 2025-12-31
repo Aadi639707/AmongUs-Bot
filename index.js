@@ -23,7 +23,7 @@ function isGroup(chat) {
 function usernameOf(user) {
   if (!user) return "unknown";
   if (user.username) return "@" + user.username;
-  return (user.first_name  "User") + (user.last_name ? " " + user.last_name : "");
+  return (user.first_name || "User") + (user.last_name ? " " + user.last_name : "");
 }
 
 function ensureGroup(msg) {
