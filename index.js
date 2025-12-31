@@ -17,7 +17,7 @@ function getGame(chatId) {
 }
 
 function isGroup(chat) {
-  return chat && (chat.type === "group"  chat.type === "supergroup");
+  return chat && (chat.type === "group" || chat.type === "supergroup");
 }
 
 function usernameOf(user) {
